@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <addon id="repository.tvking" name="TV King" version="0.1.2" provider-name="TV King">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TV King">
+            <info compressed="false">http://tvking.online/_repo/addons.xml</info>
+            <checksum>http://tvking.online/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://tvking.online/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TV King</summary>
+            <description>TV King add-on and TV King build wizard</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
